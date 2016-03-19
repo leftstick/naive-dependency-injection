@@ -6,6 +6,8 @@ naive-dependency-injection
 
 A naive implementation of DI system with proper test cases
 
+a document written in Chinese [write your own DI in BDD](http://leftstick.github.io/tech/2016/03/18/write-di-in-bdd)
+
 ## Install Dependency ##
 
 ```bash
