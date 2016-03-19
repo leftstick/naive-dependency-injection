@@ -1,0 +1,26 @@
+{
+  "name": "naive-dependency-injection",
+  "version": "1.0.0",
+  "description": "A naive implementation of DI system with proper test cases",
+  "main": "src/DI.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leftstick/naive-dependency-injection.git"
+  },
+  "keywords": [
+    "bdd",
+    "di"
+  ],
+  "author": "Howard.Zuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leftstick/naive-dependency-injection/issues"
+  },
+  "homepage": "https://github.com/leftstick/naive-dependency-injection#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
