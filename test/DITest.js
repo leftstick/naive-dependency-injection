@@ -78,13 +78,11 @@ describe('test dependency injection', function() {
 
         var app = new DI();
 
-        var woman = function() {
+        app.register('woman', function() {
             this.cry = function() {
                 return 'crying';
             };
-        };
-
-        app.register('woman', woman);
+        });
         app.register('duck', {
             fly: function() {
                 return 'flying';
